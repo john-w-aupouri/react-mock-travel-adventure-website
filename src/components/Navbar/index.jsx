@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
   const [clicked, setClicked] = useState(false)
  
-  // toggle hamburger
   const handleClick = () => setClicked(!clicked)
   const closeMobileMenu = () => setClicked(false)
 
