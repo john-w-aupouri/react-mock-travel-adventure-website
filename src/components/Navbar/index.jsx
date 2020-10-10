@@ -17,9 +17,10 @@ const Navbar = () => {
             TRYL <i className="fab-typo3"></i>
           </Link>
           <div className="meun-icon" onClick={handleClick}>
-            <i className={clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
+            
           </div>
-          <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>
+
+          <ul>
             <li className="nav-item">
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                 Home
@@ -41,7 +42,7 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
+          
         </div>
       </nav>
     </>
