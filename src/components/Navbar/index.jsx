@@ -54,6 +54,7 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
+          <Button buttonStyle="btn--outline">SIGN UP</Button>
         </div>
       </nav>
     </>
